@@ -21,10 +21,10 @@ Requirements:
 
 How to install library
 --------------
-- clone repository
+- clone repository https://github.com/JuliaLatanskaya/SearchEngineAggregator
 
 	```
-    https://github.com/JuliaLatanskaya/SearchEngineAggregator
+	git clone https://github.com/JuliaLatanskaya/SearchEngineAggregator.git .
     ```
     
 - Install dependencies
@@ -33,7 +33,7 @@ How to install library
 	composer install
     ```
     
- How to use library
+How to use library
 --------------
    ```
     $collector = new Gatherer\Collector();
@@ -41,3 +41,12 @@ How to install library
     $collector->addEngine($engineBuilder->getEngine());
     $collector->getSearchResult('keyword for search')->toArray();
    ```
+
+    
+How to run tests
+--------------
+
+In root folder run:
+```
+./vendor/bin/phpunit tests/
+```

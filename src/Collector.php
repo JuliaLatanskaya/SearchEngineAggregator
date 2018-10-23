@@ -8,6 +8,22 @@ use Gatherer\Entities\Engine;
 use Gatherer\Collection\EngineCollection;
 use Gatherer\Exception\NoSearchEnginesFoundException;
 
+/**
+ * Class Collector
+ * @package Gatherer
+ * @throws NoSearchEnginesFoundException
+ *
+ * Implementation of Search Engine Aggregator.
+ * Current version uses Google and Yahoo search engines
+ *
+ * Basic usage:
+ *
+ * $collector = new Gatherer\Collector();
+ * $engineBuilder = new Gatherer\Builder\GoogleEngineBuilder();
+ * $collector->addEngine($engineBuilder->getEngine());
+ * $collector->getSearchResult('keyword for search')->toArray();
+ *
+ */
 class Collector
 {
     protected $search_engines;

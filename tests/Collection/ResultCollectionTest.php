@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-use Gatherer\Entities\Result;
-use Gatherer\Exception\TypeMismatchException;
+use Latanskaya\Gatherer\Entities\Result;
+use Latanskaya\Gatherer\Exception\TypeMismatchException;
 use PHPUnit\Framework\TestCase;
-use Gatherer\Collection\ResultCollection;
+use Latanskaya\Gatherer\Collection\ResultCollection;
 
 final class ResultCollectionTest extends TestCase
 {

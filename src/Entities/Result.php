@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Gatherer\Entities;
+namespace Latanskaya\Gatherer\Entities;
 
 class Result
 {

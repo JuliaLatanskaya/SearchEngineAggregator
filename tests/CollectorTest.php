@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-use Gatherer\Entities\GoogleEngine;
-use Gatherer\Entities\YahooEngine;
+use Latanskaya\Gatherer\Entities\GoogleEngine;
+use Latanskaya\Gatherer\Entities\YahooEngine;
 use PHPUnit\Framework\TestCase;
-use Gatherer\Collector;
-use Gatherer\Builder\GoogleEngineBuilder;
-use Gatherer\Builder\YahooEngineBuilder;
-use Gatherer\Exception\NoSearchEnginesFoundException;
-use Gatherer\Collection\EngineCollection;
-use Gatherer\Collection\ResultCollection;
-use Gatherer\Entities\Result;
+use Latanskaya\Gatherer\Collector;
+use Latanskaya\Gatherer\Builder\GoogleEngineBuilder;
+use Latanskaya\Gatherer\Builder\YahooEngineBuilder;
+use Latanskaya\Gatherer\Exception\NoSearchEnginesFoundException;
+use Latanskaya\Gatherer\Collection\EngineCollection;
+use Latanskaya\Gatherer\Collection\ResultCollection;
+use Latanskaya\Gatherer\Entities\Result;
 
 final class CollectorTest extends TestCase
 {

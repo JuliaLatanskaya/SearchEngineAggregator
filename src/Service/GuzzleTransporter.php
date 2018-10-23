@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Gatherer\Service;
+namespace Latanskaya\Gatherer\Service;
 
 use GuzzleHttp\Client;
 

@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Gatherer\Builder;
+namespace Latanskaya\Gatherer\Builder;
 
-use Gatherer\Entities\Engine;
-use Gatherer\Exception\TypeMismatchException;
-use Gatherer\Service\Transporter;
+use Latanskaya\Gatherer\Entities\Engine;
+use Latanskaya\Gatherer\Exception\TypeMismatchException;
+use Latanskaya\Gatherer\Service\Transporter;
 
 class AbstractEngineBuilder
 {

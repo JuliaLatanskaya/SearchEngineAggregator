@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Gatherer\Entities\Result;
+use Latanskaya\Gatherer\Entities\Result;
 
 final class ResultTest extends TestCase
 {

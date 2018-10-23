@@ -2,8 +2,8 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Gatherer\Entities\Engine;
-use \Gatherer\Service\GuzzleTransporter;
+use Latanskaya\Gatherer\Entities\Engine;
+use \Latanskaya\Gatherer\Service\GuzzleTransporter;
 
 final class EngineTest extends TestCase
 {

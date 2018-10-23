@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Gatherer\Collection;
+namespace Latanskaya\Gatherer\Collection;
 
 abstract class AbstractCollection
 {

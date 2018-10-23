@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Gatherer\Exception;
+namespace Latanskaya\Gatherer\Exception;
 
 abstract class AbstractGathererException extends \Exception
 {

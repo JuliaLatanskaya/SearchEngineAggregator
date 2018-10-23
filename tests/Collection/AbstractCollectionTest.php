@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
-use Gatherer\Collection\AbstractCollection;
+use Latanskaya\Gatherer\Collection\AbstractCollection;
 
 final class AbstractCollectionTest extends TestCase
 {

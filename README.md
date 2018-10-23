@@ -5,8 +5,8 @@ Synopsis
 ==============
 The search engine aggregator combines the results from the first page of Google and Yahoo search engines.
 
-Another Search Engine can be added by extending ``` Gatherer\Entities\Engine::class ```.
-Note that ``` Gatherer\Entities\Engine->search() ``` has to ``` yield Gatherer\Entities\Result instance ```
+Another Search Engine can be added by extending ``` Latanskaya\Gatherer\Entities\Engine::class ```.
+Note that ``` Latanskaya\Gatherer\Entities\Engine->search() ``` has to ``` yield Latanskaya\Gatherer\Entities\Result instance ```
 
 The result output is an array
 
@@ -36,8 +36,8 @@ How to install library
 How to use library
 --------------
    ```
-    $collector = new Gatherer\Collector();
-    $engineBuilder = new Gatherer\Builder\GoogleEngineBuilder();
+    $collector = new Latanskaya\Gatherer\Collector();
+    $engineBuilder = new Latanskaya\Gatherer\Builder\GoogleEngineBuilder();
     $collector->addEngine($engineBuilder->getEngine());
     $collector->getSearchResult('keyword for search')->toArray();
    ```

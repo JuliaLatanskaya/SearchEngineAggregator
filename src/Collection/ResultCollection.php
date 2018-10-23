@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Gatherer\Collection;
+namespace Latanskaya\Gatherer\Collection;
 
-use Gatherer\CollectionInterface;
-use Gatherer\Entities\Result;
-use Gatherer\Exception\TypeMismatchException;
+use Latanskaya\Gatherer\CollectionInterface;
+use Latanskaya\Gatherer\Entities\Result;
+use Latanskaya\Gatherer\Exception\TypeMismatchException;
 
 class ResultCollection extends AbstractCollection
 {
     public function add($item): void
     {
         if (!($item instanceof Result)) {
-            throw new TypeMismatchException('This collection accepts only Gatherer\Entities\Result instances');
+            throw new TypeMismatchException('This collection accepts only Latanskaya\Gatherer\Entities\Result instances');
         }
 
         foreach ($this->generate() as $existedItem) {

@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Gatherer;
+namespace Latanskaya\Gatherer;
 
-use Gatherer\Collection\ResultCollection;
-use Gatherer\Entities\Engine;
-use Gatherer\Collection\EngineCollection;
-use Gatherer\Exception\NoSearchEnginesFoundException;
+use Latanskaya\Gatherer\Collection\ResultCollection;
+use Latanskaya\Gatherer\Entities\Engine;
+use Latanskaya\Gatherer\Collection\EngineCollection;
+use Latanskaya\Gatherer\Exception\NoSearchEnginesFoundException;
 
 /**
  * Class Collector
@@ -18,8 +18,8 @@ use Gatherer\Exception\NoSearchEnginesFoundException;
  *
  * Basic usage:
  *
- * $collector = new Gatherer\Collector();
- * $engineBuilder = new Gatherer\Builder\GoogleEngineBuilder();
+ * $collector = new Latanskaya\Gatherer\Collector();
+ * $engineBuilder = new Latanskaya\Gatherer\Builder\GoogleEngineBuilder();
  * $collector->addEngine($engineBuilder->getEngine());
  * $collector->getSearchResult('keyword for search')->toArray();
  *

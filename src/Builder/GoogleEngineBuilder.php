@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Gatherer\Builder;
+namespace Latanskaya\Gatherer\Builder;
 
-use Gatherer\Entities\GoogleEngine;
-use Gatherer\Service\GuzzleTransporter;
+use Latanskaya\Gatherer\Entities\GoogleEngine;
+use Latanskaya\Gatherer\Service\GuzzleTransporter;
 
 class GoogleEngineBuilder extends AbstractEngineBuilder
 {

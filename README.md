@@ -36,6 +36,8 @@ How to install library
 How to use library
 --------------
    ```
+    require 'vendor/autoload.php';
+
     $collector = new Latanskaya\Gatherer\Collector();
     $engineBuilder = new Latanskaya\Gatherer\Builder\GoogleEngineBuilder();
     $collector->addEngine($engineBuilder->getEngine());

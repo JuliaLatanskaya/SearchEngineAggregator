@@ -24,7 +24,7 @@ How to install library
 - clone repository https://github.com/JuliaLatanskaya/SearchEngineAggregator
 
 	```
-    https://github.com/JuliaLatanskaya/SearchEngineAggregator.git
+	git clone https://github.com/JuliaLatanskaya/SearchEngineAggregator.git .
     ```
     
 - Install dependencies
